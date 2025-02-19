@@ -10,7 +10,7 @@ include 'emu8086.inc'
 
 main proc
          
-         ;print variable  as msg in data section
+         ;add two variable  as msg in data section
          
          mov ax,@data 
          mov ds,ax
