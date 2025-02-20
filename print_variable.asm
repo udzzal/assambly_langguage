@@ -29,7 +29,7 @@ main proc
          mov ah,02h
          int 21h
          
-         ;instruction for print the msg ariable
+         ;instruction for print the msg variable
          mov dl,msg
          mov ah,02h
          int 21h
@@ -41,3 +41,4 @@ main proc
        
     main endp
 end main
+
